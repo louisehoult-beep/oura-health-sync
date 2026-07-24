@@ -1,0 +1,29 @@
+name: Oura daily sync
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 08:00 UTC daily (~09:00 UK time in summer) — gives the ring
+                          # time to sync overnight data before the pull
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest Oura data
+        env:
+          OURA_ACCESS_TOKEN: ${{ secrets.OURA_ACCESS_TOKEN }}
+        run: python3 sync_oura.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "oura-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ouraDaily.json
+          git diff --cached --quiet || git commit -m "Daily Oura sync: $(date -u +%Y-%m-%d)"
+          git push
