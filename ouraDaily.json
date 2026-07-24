@@ -1,0 +1,40 @@
+[
+  {
+    "date": "2026-07-19",
+    "activityScore": 94,
+    "steps": 5009,
+    "activeCalories": 289,
+    "totalCalories": 1947,
+    "source": "oura_api"
+  },
+  {
+    "date": "2026-07-20",
+    "sleepScore": 83,
+    "readinessScore": 76,
+    "activityScore": 98,
+    "totalSleepHrs": 8.1,
+    "timeInBedHrs": 9.1,
+    "sleepEfficiency": 89,
+    "avgHRV": 20,
+    "avgHeartRate": 69.75,
+    "lowestHeartRate": 62,
+    "temperatureDeviation": -0.47,
+    "steps": 10993,
+    "activeCalories": 713,
+    "totalCalories": 2425,
+    "source": "oura_api"
+  },
+  {
+    "date": "2026-07-21",
+    "sleepScore": 86,
+    "readinessScore": 82,
+    "totalSleepHrs": 8.8,
+    "timeInBedHrs": 9.8,
+    "sleepEfficiency": 90,
+    "avgHRV": 24,
+    "avgHeartRate": 65.25,
+    "lowestHeartRate": 60,
+    "temperatureDeviation": -0.3,
+    "source": "oura_api"
+  }
+]
