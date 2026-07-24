@@ -28,6 +28,7 @@
     "date": "2026-07-21",
     "sleepScore": 86,
     "readinessScore": 82,
+    "activityScore": 94,
     "totalSleepHrs": 8.8,
     "timeInBedHrs": 9.8,
     "sleepEfficiency": 90,
@@ -35,6 +36,50 @@
     "avgHeartRate": 65.25,
     "lowestHeartRate": 60,
     "temperatureDeviation": -0.3,
+    "steps": 4909,
+    "activeCalories": 422,
+    "totalCalories": 2153,
+    "source": "oura_api"
+  },
+  {
+    "date": "2026-07-22",
+    "sleepScore": 69,
+    "readinessScore": 71,
+    "activityScore": 91,
+    "totalSleepHrs": 6.9,
+    "timeInBedHrs": 8.2,
+    "sleepEfficiency": 84,
+    "avgHRV": 21,
+    "avgHeartRate": 64.875,
+    "lowestHeartRate": 58,
+    "temperatureDeviation": 0.03,
+    "steps": 4725,
+    "activeCalories": 275,
+    "totalCalories": 1984,
+    "source": "oura_api"
+  },
+  {
+    "date": "2026-07-23",
+    "sleepScore": 88,
+    "readinessScore": 95,
+    "activityScore": 90,
+    "totalSleepHrs": 9.2,
+    "timeInBedHrs": 10.7,
+    "sleepEfficiency": 86,
+    "avgHRV": 25,
+    "avgHeartRate": 66.5,
+    "lowestHeartRate": 60,
+    "temperatureDeviation": -0.07,
+    "steps": 3402,
+    "activeCalories": 314,
+    "totalCalories": 1991,
+    "workouts": [
+      {
+        "activity": "other",
+        "durationMins": null,
+        "calories": 114.200927734375
+      }
+    ],
     "source": "oura_api"
   }
 ]
