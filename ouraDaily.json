@@ -81,5 +81,22 @@
       }
     ],
     "source": "oura_api"
+  },
+  {
+    "date": "2026-07-24",
+    "sleepScore": 85,
+    "readinessScore": 85,
+    "activityScore": 84,
+    "totalSleepHrs": 7.8,
+    "timeInBedHrs": 8.8,
+    "sleepEfficiency": 88,
+    "avgHRV": 20,
+    "avgHeartRate": 66.375,
+    "lowestHeartRate": 60,
+    "temperatureDeviation": -0.11,
+    "steps": 3058,
+    "activeCalories": 239,
+    "totalCalories": 1956,
+    "source": "oura_api"
   }
 ]
