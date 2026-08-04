@@ -176,12 +176,6 @@
     "sleepScore": 74,
     "readinessScore": 81,
     "activityScore": 89,
-    "totalSleepHrs": 6.5,
-    "timeInBedHrs": 7.7,
-    "sleepEfficiency": 85,
-    "avgHRV": 23,
-    "avgHeartRate": 65.375,
-    "lowestHeartRate": 59,
     "temperatureDeviation": 0.08,
     "steps": 8667,
     "activeCalories": 537,
@@ -288,6 +282,23 @@
     "steps": 2882,
     "activeCalories": 177,
     "totalCalories": 1714,
+    "source": "oura_api"
+  },
+  {
+    "date": "2026-08-03",
+    "sleepScore": 77,
+    "readinessScore": 89,
+    "activityScore": 85,
+    "totalSleepHrs": 10.2,
+    "timeInBedHrs": 15.0,
+    "sleepEfficiency": 68,
+    "avgHRV": 24,
+    "avgHeartRate": 60.75,
+    "lowestHeartRate": 55,
+    "temperatureDeviation": 0.09,
+    "steps": 5290,
+    "activeCalories": 303,
+    "totalCalories": 1977,
     "source": "oura_api"
   }
 ]
