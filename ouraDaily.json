@@ -328,5 +328,22 @@
     "activeCalories": 277,
     "totalCalories": 1990,
     "source": "oura_api"
+  },
+  {
+    "date": "2026-08-06",
+    "sleepScore": 74,
+    "readinessScore": 85,
+    "activityScore": 76,
+    "totalSleepHrs": 8.5,
+    "timeInBedHrs": 9.7,
+    "sleepEfficiency": 88,
+    "avgHRV": 26,
+    "avgHeartRate": 65.0,
+    "lowestHeartRate": 59,
+    "temperatureDeviation": -0.18,
+    "steps": 3373,
+    "activeCalories": 309,
+    "totalCalories": 2045,
+    "source": "oura_api"
   }
 ]
